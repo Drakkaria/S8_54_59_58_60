@@ -1,6 +1,6 @@
 ﻿Console.Clear();
 Console.Write("Введите N: ");
-int n = int.Parse(Console.ReadLine());
+int n = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine(PrintNumbers(1, n));
 
